@@ -1,14 +1,14 @@
 /* Página do Ary (Fase 9). Tokens em :root; modo escuro pelo sistema. Sem fonte externa (CSP 'self'). */
 :root {
   --fundo: #f6f8fb; --superficie: #ffffff; --texto: #0f1720; --suave: #556273; --borda: #dfe5ec;
-  --acento: #ff9900; --acento-texto: #111; --azul: #0f62c9; --sombra: 0 8px 30px rgba(15, 23, 32, .08);
+  --acento: #ff9900; --acento-texto: #111; --azul: #0f62c9; --camisa: #1f243b; --sombra: 0 8px 30px rgba(15, 23, 32, .08);
   --raio: 16px; --largura: 1080px;
   color-scheme: light dark;
 }
 @media (prefers-color-scheme: dark) {
   :root {
     --fundo: #0b1220; --superficie: #121a2b; --texto: #e7edf5; --suave: #9aa8ba; --borda: #233047;
-    --azul: #5aa2ff; --sombra: 0 8px 30px rgba(0, 0, 0, .35);
+    --azul: #5aa2ff; --camisa: #a0abdf; --sombra: 0 8px 30px rgba(0, 0, 0, .35);
   }
 }
 
@@ -45,7 +45,7 @@ main { max-width: var(--largura); margin: 0 auto; padding: 0 16px 48px; }
   width: 280px; height: 280px; border-radius: 50%; object-fit: cover; background: #fff;
   border: 4px solid var(--superficie); box-shadow: var(--sombra), 0 0 0 4px var(--acento);
 }
-h1 { font-size: clamp(2.2rem, 5vw, 3.4rem); line-height: 1.1; margin: 0; letter-spacing: -.5px; color: var(--azul); }
+h1 { font-size: clamp(2.2rem, 5vw, 3.4rem); line-height: 1.1; margin: 0; letter-spacing: -.5px; color: var(--camisa); }
 .cargo { margin: 6px 0 14px; font-size: 1.25rem; font-weight: 600; color: var(--texto); }
 .resumo { font-size: 1.1rem; margin: 0 0 8px; max-width: 60ch; }
 .local, .nota { color: var(--suave); margin: 0 0 16px; font-size: .95rem; }
@@ -54,7 +54,7 @@ h1 { font-size: clamp(2.2rem, 5vw, 3.4rem); line-height: 1.1; margin: 0; letter-
 .acoes { display: flex; flex-wrap: wrap; gap: 12px; }
 .botao {
   display: inline-flex; align-items: center; min-height: 46px; padding: 0 20px; border-radius: 999px; font: inherit;
-  font-weight: 600; text-decoration: none; cursor: pointer; border: 2px solid var(--azul); color: var(--azul); background: transparent;
+  font-weight: 600; text-decoration: none; cursor: pointer; border: 2px solid var(--camisa); color: var(--camisa); background: transparent;
 }
 .botao.primario { background: var(--acento); border-color: var(--acento); color: var(--acento-texto); }
 .botao:hover { filter: brightness(1.06); }
