@@ -26,9 +26,8 @@ img, svg { display: block; }
 .pular:focus { left: 16px; }
 
 .topo {
-  max-width: var(--largura); margin: 0 auto; padding: 16px; display: flex; align-items: center; justify-content: space-between;
+  max-width: var(--largura); margin: 0 auto; padding: 16px; display: flex; align-items: center; justify-content: flex-end;
 }
-.marca { font-weight: 700; letter-spacing: .2px; }
 .idiomas { display: flex; gap: 8px; }
 .idiomas button {
   padding: 4px; border: 2px solid transparent; border-radius: 8px; background: transparent; cursor: pointer; line-height: 0;
