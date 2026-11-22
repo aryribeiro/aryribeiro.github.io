@@ -1,0 +1,91 @@
+/* Chat da página do Ary (Fase 8). Cores por variável: a página da Fase 9 só sobrescreve os tokens. */
+:root {
+  --chat-ary-fundo: #ffffff;
+  --chat-ary-texto: #16191f;
+  --chat-ary-suave: #5f6b7a;
+  --chat-ary-borda: #d5dbe3;
+  --chat-ary-destaque: #0f62c9;
+  --chat-ary-destaque-texto: #ffffff;
+  --chat-ary-balao-eles: #eef2f7;
+  --chat-ary-aviso: #fff6e0;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --chat-ary-fundo: #161b22;
+    --chat-ary-texto: #e6edf3;
+    --chat-ary-suave: #9aa7b4;
+    --chat-ary-borda: #30363d;
+    --chat-ary-destaque: #4a9bff;
+    --chat-ary-destaque-texto: #0b1220;
+    --chat-ary-balao-eles: #222a35;
+    --chat-ary-aviso: #3a3220;
+  }
+}
+
+.chat-ary-lancador {
+  position: fixed; right: 16px; bottom: 16px; z-index: 1000;
+  width: 56px; height: 56px; border-radius: 50%; border: 0; cursor: pointer;
+  background: var(--chat-ary-destaque); color: var(--chat-ary-destaque-texto);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, .25); display: grid; place-items: center;
+}
+.chat-ary-lancador svg { width: 26px; height: 26px; fill: currentColor; }
+.chat-ary-lancador:focus-visible, .chat-ary-painel button:focus-visible, .chat-ary-painel input:focus-visible {
+  outline: 3px solid var(--chat-ary-destaque); outline-offset: 2px;
+}
+
+.chat-ary-painel {
+  position: fixed; right: 16px; bottom: 84px; z-index: 1000;
+  width: min(380px, calc(100vw - 32px)); height: min(560px, calc(100vh - 110px));
+  display: flex; flex-direction: column; overflow: hidden;
+  background: var(--chat-ary-fundo); color: var(--chat-ary-texto);
+  border: 1px solid var(--chat-ary-borda); border-radius: 16px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, .25);
+  font: 15px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.chat-ary-painel[hidden], .chat-ary-painel [hidden] { display: none !important; }
+
+.chat-ary-topo {
+  display: flex; align-items: center; gap: 8px; padding: 12px 14px;
+  background: var(--chat-ary-destaque); color: var(--chat-ary-destaque-texto);
+}
+.chat-ary-marca { display: flex; flex-direction: column; flex: 1; min-width: 0; }
+.chat-ary-marca span { font-size: 12px; opacity: .9; }
+.chat-ary-topo button {
+  border: 0; background: transparent; color: inherit; cursor: pointer; font: inherit; border-radius: 8px;
+}
+.chat-ary-encerrar { font-size: 12px; padding: 4px 8px; border: 1px solid currentColor !important; }
+.chat-ary-fechar { font-size: 24px; line-height: 1; width: 32px; height: 32px; }
+
+.chat-ary-lista { flex: 1; overflow-y: auto; padding: 14px; display: flex; flex-direction: column; gap: 8px; }
+.chat-ary-balao {
+  max-width: 85%; padding: 8px 12px; border-radius: 14px; white-space: pre-wrap; overflow-wrap: anywhere;
+}
+.chat-ary-eles { align-self: flex-start; background: var(--chat-ary-balao-eles); border-bottom-left-radius: 4px; }
+.chat-ary-eu {
+  align-self: flex-end; background: var(--chat-ary-destaque); color: var(--chat-ary-destaque-texto);
+  border-bottom-right-radius: 4px;
+}
+.chat-ary-aviso { align-self: center; max-width: 95%; background: var(--chat-ary-aviso); font-size: 13px; text-align: center; }
+.chat-ary-balao a { color: inherit; text-decoration: underline; }
+
+.chat-ary-status { min-height: 18px; margin: 0; padding: 0 14px; font-size: 12px; color: var(--chat-ary-suave); }
+.chat-ary-rapidos { display: flex; flex-wrap: wrap; gap: 8px; padding: 4px 14px 8px; }
+.chat-ary-rapido, .chat-ary-comecar {
+  border: 1px solid var(--chat-ary-destaque); background: transparent; color: var(--chat-ary-destaque);
+  border-radius: 999px; padding: 8px 14px; cursor: pointer; font: inherit; font-size: 14px; min-height: 40px;
+}
+.chat-ary-comecar {
+  margin: 4px 14px 10px; background: var(--chat-ary-destaque); color: var(--chat-ary-destaque-texto); font-weight: 600;
+}
+.chat-ary-comecar:disabled { opacity: .6; cursor: progress; }
+
+.chat-ary-form { display: flex; gap: 8px; padding: 10px 14px; border-top: 1px solid var(--chat-ary-borda); }
+.chat-ary-form input {
+  flex: 1; min-width: 0; padding: 10px 12px; font: inherit; border-radius: 10px;
+  border: 1px solid var(--chat-ary-borda); background: var(--chat-ary-fundo); color: var(--chat-ary-texto);
+}
+.chat-ary-enviar {
+  border: 0; border-radius: 10px; padding: 0 14px; cursor: pointer; font: inherit; font-weight: 600;
+  background: var(--chat-ary-destaque); color: var(--chat-ary-destaque-texto);
+}
+.chat-ary-rodape { margin: 0; padding: 6px 14px 10px; font-size: 11px; color: var(--chat-ary-suave); }

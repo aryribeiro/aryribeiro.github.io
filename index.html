@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ary Ribeiro · AWS Solutions Architect</title>
+  <meta name="description" content="Ary Ribeiro, AWS Solutions Architect specialized in Amazon Connect. Talk to his AI assistant by chat or phone.">
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self';
+                 connect-src https://*.lambda-url.us-east-1.on.aws https://participant.connect.us-east-1.amazonaws.com wss://*.transport.connect.us-east-1.amazonaws.com;
+                 img-src 'self' data:; font-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="theme-color" content="#0b1220">
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="estilo.css">
+  <link rel="stylesheet" href="chat/chat.css">
+</head>
+<body>
+  <a class="pular" href="#conteudo" data-t="pular">Skip to content</a>
+
+  <header class="topo">
+    <span class="marca">Ary Ribeiro</span>
+    <nav class="idiomas" aria-label="Language" data-t-aria="idioma">
+      <button type="button" data-idioma="en" aria-label="English" title="English">
+        <svg viewBox="0 0 30 20" aria-hidden="true"><rect width="30" height="20" fill="#b22234"/><path d="M0 3h30M0 6.1h30M0 9.2h30M0 12.3h30M0 15.4h30M0 18.5h30" stroke="#fff" stroke-width="1.55"/><rect width="13" height="10.8" fill="#3c3b6e"/><g fill="#fff"><circle cx="2.2" cy="2" r=".7"/><circle cx="6.5" cy="2" r=".7"/><circle cx="10.8" cy="2" r=".7"/><circle cx="4.3" cy="4.4" r=".7"/><circle cx="8.6" cy="4.4" r=".7"/><circle cx="2.2" cy="6.8" r=".7"/><circle cx="6.5" cy="6.8" r=".7"/><circle cx="10.8" cy="6.8" r=".7"/><circle cx="4.3" cy="9.1" r=".7"/><circle cx="8.6" cy="9.1" r=".7"/></g></svg>
+      </button>
+      <button type="button" data-idioma="pt" aria-label="Português" title="Português">
+        <svg viewBox="0 0 30 20" aria-hidden="true"><rect width="30" height="20" fill="#009c3b"/><path d="M15 2.2 27.6 10 15 17.8 2.4 10z" fill="#ffdf00"/><circle cx="15" cy="10" r="4.6" fill="#002776"/><path d="M10.6 9.1c3-.9 6.3-.6 8.8.9" stroke="#fff" stroke-width=".8" fill="none"/></svg>
+      </button>
+      <button type="button" data-idioma="es" aria-label="Español" title="Español">
+        <svg viewBox="0 0 30 20" aria-hidden="true"><rect width="30" height="20" fill="#aa151b"/><rect y="5" width="30" height="10" fill="#f1bf00"/></svg>
+      </button>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <section class="heroi">
+      <picture>
+        <source srcset="img/ary-480.webp 480w, img/ary-960.webp 960w" sizes="(min-width: 800px) 280px, 200px" type="image/webp">
+        <img class="foto" src="img/ary-480.jpg" alt="Ary Ribeiro" width="280" height="280" fetchpriority="high">
+      </picture>
+      <div class="heroi-texto">
+        <h1>Ary Ribeiro</h1>
+        <p class="cargo" data-t="cargo">AWS Solutions Architect</p>
+        <p class="resumo" data-t="resumo"></p>
+        <p class="local" data-t="local"></p>
+        <div class="acoes">
+          <button type="button" id="abrir-chat" class="botao primario" data-t="ctaChat">Chat with Jarvis</button>
+          <a id="ligar" class="botao" href="#"><span data-t="ctaLigar">Call</span>&nbsp;<span id="numero"></span></a>
+        </div>
+        <p class="nota" data-t="ligarNota"></p>
+        <ul class="redes">
+          <li><a href="https://www.linkedin.com/in/aryribeiro" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.5h4V21H3zM9.5 9.5h3.8v1.6h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5.2c0-1.2 0-2.9-1.8-2.9s-2 1.4-2 2.8V21h-4z"/></svg>LinkedIn</a></li>
+          <li><a href="https://github.com/aryribeiro" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.6 22.4c.6.1.8-.3.8-.6v-2c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A11.5 11.5 0 0 0 12 .5z"/></svg>GitHub</a></li>
+          <li><a id="email" href="#">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 5h20v14H2zm2 2v.5l8 5 8-5V7zm16 2.9-8 5-8-5V17h16z"/></svg><span data-t="ctaEmail">Email</span></a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="bloco" aria-labelledby="t-certs">
+      <h2 id="t-certs" data-t="tituloCerts">AWS certifications</h2>
+      <p class="nota" data-t="notaCerts"></p>
+      <ul id="certs" class="certs"></ul>
+    </section>
+
+    <section class="bloco projeto" aria-labelledby="t-projeto">
+      <h2 id="t-projeto" data-t="tituloProjeto"></h2>
+      <p data-t="projeto1"></p>
+      <p data-t="projeto2"></p>
+      <p data-t="projeto3"></p>
+    </section>
+
+    <section class="bloco" aria-labelledby="t-apps">
+      <h2 id="t-apps" data-t="tituloApps"></h2>
+      <ul id="apps" class="cards"></ul>
+    </section>
+
+    <section class="bloco privacidade" aria-labelledby="t-priv">
+      <h2 id="t-priv" data-t="tituloPrivacidade"></h2>
+      <p data-t="privacidade"></p>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <p>© <span id="ano"></span> <span data-t="rodape">Ary Ribeiro</span> ·
+      <a href="https://www.linkedin.com/in/aryribeiro" target="_blank" rel="noopener noreferrer">linkedin.com/in/aryribeiro</a></p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/amazon-connect-chatjs@5.4.1/dist/amazon-connect-chat.js"
+          integrity="sha384-C28Au6+oyp1wL/MsoX5N4zXP+G61rTbpdLJgnaOkB7KVG4AS4jNSFP8vYqBENsVo"
+          crossorigin="anonymous" defer></script>
+  <script src="chat/config.js" defer></script>
+  <script src="chat/chat.js" defer></script>
+  <script src="pagina.js" defer></script>
+</body>
+</html>

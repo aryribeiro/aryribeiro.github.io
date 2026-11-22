@@ -1,0 +1,2 @@
+// GERADO por scripts/site_chat.py - não editar à mão.
+window.CHAT_ARY_CONFIG = {"endpoint": "https://bb4lp3nnnm4vlrodlvhc7oeem40jjevc.lambda-url.us-east-1.on.aws/", "regiao": "us-east-1", "botoes": {"en": {"falar": "Talk to Ary", "recado": "Leave a message", "sobre": "About Ary"}, "pt": {"falar": "Falar com o Ary", "recado": "Deixar recado", "sobre": "Sobre o Ary"}, "es": {"falar": "Hablar con Ary", "recado": "Dejar un mensaje", "sobre": "Sobre Ary"}}};
