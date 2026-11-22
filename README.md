@@ -1,4 +1,4 @@
-# aryribeiro.github.io
+# Amazon Connect project
 
 Personal page of Ary Ribeiro, AWS Solutions Architect: <https://aryribeiro.github.io>
 
