@@ -27,7 +27,7 @@
       tituloApps: "Apps and games I built", abrir: "Open",
       tipo_app: "Web app", tipo_jogo: "Game", tipo_extensao: "Firefox extension", tipo_portal: "News portal",
       tituloPrivacidade: "Privacy",
-      privacidade: "Jarvis is an AI assistant. Calls are not recorded. If you leave a message, only your name, WhatsApp number and reason are sent to Ary by email, to reply to you. Please don't share sensitive data.",
+      privacidade: "Jarvis is an AI assistant. Calls are not recorded. The text of the conversation (chat messages and what you say to Jarvis) stays in the service's technical logs for up to 14 days and is then deleted automatically. If you leave a message, your name, WhatsApp number and reason are sent to Ary by email, so he can reply. Please don't share sensitive data.",
       rodape: "Ary Ribeiro"
     },
     pt: {
@@ -47,7 +47,7 @@
       tituloApps: "Apps e jogos que eu criei", abrir: "Abrir",
       tipo_app: "Web app", tipo_jogo: "Jogo", tipo_extensao: "Extensão do Firefox", tipo_portal: "Portal de notícias",
       tituloPrivacidade: "Privacidade",
-      privacidade: "O Jarvis é um assistente de IA. As ligações não são gravadas. Se você deixar um recado, só o seu nome, o seu WhatsApp e o motivo vão para o Ary por e-mail, para ele responder. Não compartilhe dados sensíveis.",
+      privacidade: "O Jarvis é um assistente de IA. As ligações não são gravadas. O texto da conversa (mensagens do chat e o que você diz ao Jarvis) fica nos registros técnicos do serviço por até 14 dias e depois é apagado automaticamente. Se você deixar um recado, o seu nome, o seu WhatsApp e o motivo vão para o Ary por e-mail, para ele responder. Não compartilhe dados sensíveis.",
       rodape: "Ary Ribeiro"
     },
     es: {
@@ -67,7 +67,7 @@
       tituloApps: "Apps y juegos que creé", abrir: "Abrir",
       tipo_app: "Web app", tipo_jogo: "Juego", tipo_extensao: "Extensión de Firefox", tipo_portal: "Portal de noticias",
       tituloPrivacidade: "Privacidad",
-      privacidade: "Jarvis es un asistente de IA. Las llamadas no se graban. Si dejas un mensaje, solo tu nombre, tu WhatsApp y el motivo se envían a Ary por correo, para que te responda. No compartas datos sensibles.",
+      privacidade: "Jarvis es un asistente de IA. Las llamadas no se graban. El texto de la conversación (mensajes del chat y lo que le dices a Jarvis) queda en los registros técnicos del servicio hasta 14 días y luego se borra automáticamente. Si dejas un mensaje, tu nombre, tu WhatsApp y el motivo se envían a Ary por correo, para que te responda. No compartas datos sensibles.",
       rodape: "Ary Ribeiro"
     }
   };
