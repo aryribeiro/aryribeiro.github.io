@@ -1,0 +1,138 @@
+PROPRIETARY LICENSE - ALL RIGHTS RESERVED
+
+Copyright (c) 2026 Ary Ribeiro. All rights reserved.
+
+This repository and the website published from it at https://aryribeiro.github.io
+(together, the "Work") are proprietary. The Work is NOT open source and NOT free
+software. Making the Work publicly visible does not place it in the public domain
+and does not grant any license, except as expressly stated below.
+
+1. DEFINITIONS
+
+"Work" means all content of this repository and of the website, in any version,
+including without limitation: source code (HTML, CSS, JavaScript and configuration
+files), text in any language, page structure, layout, visual design, selection and
+arrangement of content, graphics, icons created by the author, photographs and other
+images of the author, and any compilation of them.
+
+"Author" means Ary Ribeiro, the sole owner of the copyright and of all other rights
+in the Work, except for the Third-Party Materials listed in Section 6.
+
+2. RESERVATION OF RIGHTS
+
+All rights in the Work are reserved by the Author under Brazilian Law No. 9,610 of
+19 February 1998 (Copyright Law), Brazilian Law No. 9,609 of 19 February 1998
+(Software Law), the Berne Convention for the Protection of Literary and Artistic
+Works and all other applicable laws and treaties. No right, title or interest is
+transferred or licensed by implication, estoppel or otherwise. Any right not
+expressly granted in this License is withheld.
+
+3. LIMITED PERMISSIONS
+
+Subject to full compliance with this License, you may only:
+
+  (a) access and view the website in a web browser, including the temporary copies
+      that the browser and network caches make automatically for that purpose, for
+      the sole purpose of learning about the Author and his professional work;
+
+  (b) link to the website or to this repository, without framing, embedding or
+      presenting the Work as part of another site or service; and
+
+  (c) view and fork this repository on GitHub solely to the extent required by the
+      GitHub Terms of Service for public repositories. Such a fork remains subject to
+      this License and grants no right to use, modify, deploy, publish, host or
+      distribute the Work, inside or outside GitHub.
+
+4. PROHIBITED USES
+
+Without the prior written permission of the Author, you may not, in whole or in part,
+directly or indirectly, by any means or in any medium:
+
+  (a) copy, reproduce, download for reuse, store or archive the Work, except as
+      permitted in Section 3;
+  (b) modify, adapt, translate, transform, refactor, or create derivative works
+      based on the Work, including using it as a template, theme or starting point;
+  (c) distribute, publish, republish, upload, mirror, host, deploy, transmit,
+      display publicly, or make the Work available on any website, repository,
+      package registry, application or service;
+  (d) sell, rent, lease, license, sublicense, assign or otherwise commercially
+      exploit the Work or any service built with it;
+  (e) remove, alter or obscure any copyright notice, license reference or other
+      notice of rights in the Work;
+  (f) use the name, photograph, image, likeness, voice, signature or professional
+      identity of the Author, or present any work as made, endorsed or authorized by
+      the Author, or impersonate the Author;
+  (g) use any automated means (including robots, crawlers, scrapers or data
+      extraction tools) to collect the Work, or use the Work or any part of it for
+      text and data mining, or to train, fine-tune, evaluate, ground or otherwise
+      develop any artificial intelligence or machine learning model or system;
+  (h) circumvent, interfere with or abuse the website, its chat, its phone line or
+      the cloud services behind them, or attempt to obtain access, data or service
+      beyond what a normal visitor receives.
+
+The reservation in item (g) is an express reservation of rights for text and data
+mining purposes, including for the purposes of Article 4(3) of Directive (EU)
+2019/790 and any equivalent provision of other jurisdictions.
+
+5. AUTHOR'S MORAL RIGHTS
+
+The moral rights of the Author under Articles 24 to 27 of Brazilian Law No. 9,610/1998,
+including the rights of attribution and integrity, are inalienable and are not
+waived by this License.
+
+6. THIRD-PARTY MATERIALS
+
+The following are not part of the Work, are not owned by the Author and are not
+licensed by this License. They remain subject to the terms of their respective
+owners:
+
+  - Amazon Web Services, AWS, Amazon Connect, the AWS Certification badges and all
+    related names and logos are trademarks of Amazon.com, Inc. or its affiliates. The
+    badges are displayed only to evidence certifications earned by the Author and are
+    verifiable on Credly.
+  - The amazon-connect-chatjs library is loaded at runtime from a public CDN and is
+    licensed by its owner under the Apache License 2.0. It is not stored in or
+    distributed by this repository.
+  - LinkedIn, GitHub, WhatsApp, Gmail and any other third-party name, trademark or
+    service mentioned or linked in the Work belong to their respective owners.
+  - Applications and games referenced by the website are separate works governed
+    by their own licenses.
+
+7. NO WARRANTY AND LIMITATION OF LIABILITY
+
+The Work is made available "AS IS", without warranty of any kind, express or implied.
+To the maximum extent permitted by law, the Author shall not be liable for any
+damages arising from access to or use of the Work.
+
+8. TERMINATION AND ENFORCEMENT
+
+Any use of the Work in breach of this License is unauthorized, automatically
+terminates the permissions in Section 3, and constitutes infringement of the
+Author's rights. Upon termination you must immediately cease all use and destroy all
+copies in your possession or control. The Author reserves the right to pursue all
+remedies available at law, including takedown notices to hosting providers and
+platforms (such as notices under the Digital Millennium Copyright Act), the civil
+measures of Articles 102 to 110 of Brazilian Law No. 9,610/1998, indemnification for
+damages, and the criminal measures applicable under Article 184 of the Brazilian
+Penal Code and Article 12 of Brazilian Law No. 9,609/1998.
+
+9. PERMISSIONS AND CONTACT
+
+Requests for any use not permitted by this License must be made in writing to the
+Author through https://www.linkedin.com/in/aryribeiro. No permission is granted
+unless it is given in writing and signed or sent by the Author. Silence or the
+absence of enforcement is not consent.
+
+10. GOVERNING LAW AND JURISDICTION
+
+This License is governed by the laws of the Federative Republic of Brazil. Any
+dispute arising from it shall be submitted to the courts of the Author's domicile in
+Brazil, without prejudice to the Author's right to bring proceedings in the
+jurisdiction where an infringement occurs.
+
+11. GENERAL
+
+If any provision of this License is held invalid or unenforceable, the remaining
+provisions remain in full force, and the invalid provision shall be applied to the
+maximum extent permitted by law. This English version prevails over any translation.
+Translations provided in NOTICE.md are for convenience only.

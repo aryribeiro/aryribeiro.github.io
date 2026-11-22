@@ -1,3 +1,4 @@
+/*! (c) 2026 Ary Ribeiro. All rights reserved. Proprietary, not open source: copying, modification or redistribution is prohibited. LICENSE: https://github.com/aryribeiro/aryribeiro.github.io/blob/main/LICENSE */
 /* Página do Ary (Fase 9). Tokens em :root; modo escuro pelo sistema. Sem fonte externa (CSP 'self'). */
 :root {
   --fundo: #f6f8fb; --superficie: #ffffff; --texto: #0f1720; --suave: #556273; --borda: #dfe5ec;

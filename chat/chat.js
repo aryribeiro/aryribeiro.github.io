@@ -1,3 +1,4 @@
+/*! (c) 2026 Ary Ribeiro. All rights reserved. Proprietary, not open source: copying, modification or redistribution is prohibited. LICENSE: https://github.com/aryribeiro/aryribeiro.github.io/blob/main/LICENSE */
 /* Chat da página do Ary (Fase 8, D-006/D-022/D-039).
  * Página → POST na Function URL do iniciar-chat (freio + StartChatContact) → amazon-connect-chatjs.
  * Funções puras no topo (testadas com node --test); casca de tela embaixo (provada pelo Playwright).

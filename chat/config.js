@@ -1,2 +1,3 @@
+/*! (c) 2026 Ary Ribeiro. All rights reserved. Proprietary, not open source: copying, modification or redistribution is prohibited. LICENSE: https://github.com/aryribeiro/aryribeiro.github.io/blob/main/LICENSE */
 // GERADO por scripts/site_chat.py - não editar à mão.
 window.CHAT_ARY_CONFIG = {"endpoint": "https://bb4lp3nnnm4vlrodlvhc7oeem40jjevc.lambda-url.us-east-1.on.aws/", "regiao": "us-east-1", "botoes": {"en": {"falar": "Talk to Ary", "recado": "Leave a message", "sobre": "About Ary"}, "pt": {"falar": "Falar com o Ary", "recado": "Deixar recado", "sobre": "Sobre o Ary"}, "es": {"falar": "Hablar con Ary", "recado": "Dejar un mensaje", "sobre": "Sobre Ary"}}};

@@ -1,3 +1,4 @@
+/*! (c) 2026 Ary Ribeiro. All rights reserved. Proprietary, not open source: copying, modification or redistribution is prohibited. LICENSE: https://github.com/aryribeiro/aryribeiro.github.io/blob/main/LICENSE */
 /* Página trilíngue do Ary (Fase 9). Conteúdo + troca de idioma + chat da Fase 8.
  * Dados no topo (testados com node --test tests/pagina.test.js); casca de tela embaixo.
  * Regra D-023: nada sobre vaga/emprego. Textos entram por textContent. */
