@@ -7,3 +7,5 @@ The page is available in English, Portuguese and Spanish. Its chat and phone lin
 This repository holds only the static page: HTML, CSS and JavaScript, with no build step. The contact center itself runs on AWS.
 
 LinkedIn: [linkedin.com/in/aryribeiro](https://www.linkedin.com/in/aryribeiro)
+
+© 2026 Ary Ribeiro. All rights reserved.
