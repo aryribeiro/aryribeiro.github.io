@@ -1,7 +1,7 @@
 /* Página do Ary (Fase 9). Tokens em :root; modo escuro pelo sistema. Sem fonte externa (CSP 'self'). */
 :root {
   --fundo: #f6f8fb; --superficie: #ffffff; --texto: #0f1720; --suave: #556273; --borda: #dfe5ec;
-  --acento: #ff9900; --acento-texto: #111; --azul: #0f62c9; --camisa: #1f243b; --sombra: 0 8px 30px rgba(15, 23, 32, .08);
+  --acento: #ff9900; --acento-texto: #111; --azul: #0f62c9; --camisa: #1f2f7a; --sombra: 0 8px 30px rgba(15, 23, 32, .08);
   --raio: 16px; --largura: 1080px;
   color-scheme: light dark;
 }
