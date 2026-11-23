@@ -25,8 +25,8 @@
       projeto1: "The chat and the phone line on this page are an Amazon Connect contact center that I built 100% with AWS CloudFormation.",
       projeto2: "Jarvis, the AI assistant, speaks English, Portuguese and Spanish. When I'm available, it transfers the conversation to me; otherwise it takes a message and I reply on WhatsApp.",
       projeto3: "Real-time cost guardrails and an automatic budget circuit breaker keep the whole thing within a few dollars a month.",
-      tituloApps: "Some apps and games I built", abrir: "Open",
-      tipo_app: "Web app", tipo_jogo: "Game", tipo_extensao: "Firefox extension", tipo_portal: "News portal",
+      tituloApps: "Explore part of my portfolio", abrir: "Open",
+      tipo_app: "Web app", tipo_jogo: "Game", tipo_extensao: "Firefox extension", tipo_portal: "News portal", tipo_plataforma: "Platform",
       tituloPrivacidade: "Privacy",
       privacidade: "Jarvis is an AI assistant. Calls are not recorded. The text of the conversation (chat messages and what you say to Jarvis) stays in the service's technical logs for up to 14 days and is then deleted automatically. If you leave a message, your name, WhatsApp number and reason are sent to Ary by email, so he can reply. Please don't share sensitive data.",
       rodape: "Ary Ribeiro"
@@ -45,8 +45,8 @@
       projeto1: "O chat e o telefone desta página são uma central de atendimento no Amazon Connect que eu construí 100% com AWS CloudFormation.",
       projeto2: "O Jarvis, assistente de IA, fala inglês, português e espanhol. Quando estou disponível, ele passa a conversa para mim; senão, anota um recado e eu respondo pelo WhatsApp.",
       projeto3: "Freios de custo em tempo real e um disjuntor automático de orçamento mantêm tudo em poucos dólares por mês.",
-      tituloApps: "Alguns apps e jogos que criei", abrir: "Abrir",
-      tipo_app: "Web app", tipo_jogo: "Jogo", tipo_extensao: "Extensão do Firefox", tipo_portal: "Portal de notícias",
+      tituloApps: "Confira parte do meu portfólio", abrir: "Abrir",
+      tipo_app: "Web app", tipo_jogo: "Jogo", tipo_extensao: "Extensão do Firefox", tipo_portal: "Portal de notícias", tipo_plataforma: "Plataforma",
       tituloPrivacidade: "Privacidade",
       privacidade: "O Jarvis é um assistente de IA. As ligações não são gravadas. O texto da conversa (mensagens do chat e o que você diz ao Jarvis) fica nos registros técnicos do serviço por até 14 dias e depois é apagado automaticamente. Se você deixar um recado, o seu nome, o seu WhatsApp e o motivo vão para o Ary por e-mail, para ele responder. Não compartilhe dados sensíveis.",
       rodape: "Ary Ribeiro"
@@ -65,8 +65,8 @@
       projeto1: "El chat y el teléfono de esta página son un contact center en Amazon Connect que construí 100% con AWS CloudFormation.",
       projeto2: "Jarvis, el asistente de IA, habla inglés, portugués y español. Cuando estoy disponible, me pasa la conversación; si no, toma un mensaje y respondo por WhatsApp.",
       projeto3: "Frenos de costo en tiempo real y un disyuntor automático de presupuesto mantienen todo en pocos dólares al mes.",
-      tituloApps: "Algunas apps y juegos que creé", abrir: "Abrir",
-      tipo_app: "Web app", tipo_jogo: "Juego", tipo_extensao: "Extensión de Firefox", tipo_portal: "Portal de noticias",
+      tituloApps: "Conoce parte de mi portafolio", abrir: "Abrir",
+      tipo_app: "Web app", tipo_jogo: "Juego", tipo_extensao: "Extensión de Firefox", tipo_portal: "Portal de noticias", tipo_plataforma: "Plataforma",
       tituloPrivacidade: "Privacidad",
       privacidade: "Jarvis es un asistente de IA. Las llamadas no se graban. El texto de la conversación (mensajes del chat y lo que le dices a Jarvis) queda en los registros técnicos del servicio hasta 14 días y luego se borra automáticamente. Si dejas un mensaje, tu nombre, tu WhatsApp y el motivo se envían a Ary por correo, para que te responda. No compartas datos sensibles.",
       rodape: "Ary Ribeiro"
@@ -75,7 +75,7 @@
 
   // Ordem = a do Ary (21/11). Descrição tirada do texto publicado por cada app (não do nome).
   var APPS = [
-    { nome: "AtlasDocs", tipo: "app", url: "https://atlasdocs.io/", desc: {
+    { nome: "AtlasDocs", tipo: "plataforma", url: "https://atlasdocs.io/", desc: {
       en: "PDF tools that run 100% in the browser: merge, split, rotate, compress and watermark. Files never leave your device.",
       pt: "Ferramentas de PDF 100% no navegador: mesclar, dividir, girar, comprimir e marca d'água. Os arquivos não saem do seu aparelho.",
       es: "Herramientas de PDF 100% en el navegador: unir, dividir, girar, comprimir y marca de agua. Los archivos no salen de tu equipo." } },
